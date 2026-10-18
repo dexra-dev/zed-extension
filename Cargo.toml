@@ -1,0 +1,15 @@
+[package]
+name = "dexra_mcp_server"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+
+[lib]
+path = "src/dexra_mcp_server.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+schemars = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+zed_extension_api = "0.7.0"

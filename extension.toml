@@ -1,0 +1,10 @@
+id = "dexra-mcp-server"
+name = "Dexra MCP Server"
+description = "Solana DeFi checks for AI agents: token launches, holders, wallets, pools, perp markets and swap preflight, each with a verdict."
+version = "0.1.0"
+schema_version = 1
+authors = ["Dexra <support@dexra.dev>"]
+repository = "https://github.com/dexra-dev/zed-extension"
+
+[context_servers.dexra-mcp-server]
+name = "Dexra"

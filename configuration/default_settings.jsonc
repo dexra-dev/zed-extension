@@ -1,0 +1,5 @@
+{
+  /// Optional Dexra API key (dxr_...) from https://dexra.dev/app/keys.
+  /// Leave it empty to use the free tools and pay per call in USDC over x402.
+  "api_key": ""
+}
